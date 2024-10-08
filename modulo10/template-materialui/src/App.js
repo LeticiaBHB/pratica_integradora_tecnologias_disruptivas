@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <Header />
       <ListarTarefa />
+      <footer style={{ padding: '20px', backgroundColor: '#282c34', color: 'white' }}>
+        <Typography variant="body2">© 2024 Gerenciamento de Projetos</Typography>
+      </footer>
     </div>
   );
 }
